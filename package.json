@@ -1,0 +1,23 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "Font End",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derek-Cai/webpackDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Derek-Cai/webpackDemo/issues"
+  },
+  "homepage": "https://github.com/Derek-Cai/webpackDemo#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0"
+  }
+}
