@@ -1,3 +1,3 @@
-let a = 1;
-a = 2;
-console.log(a);
+import "./index.css";
+const container = document.getElementById("container");
+console.log(container);
