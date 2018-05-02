@@ -1,7 +1,12 @@
-import React from "react";
-import { render } from "react-dom";
 import "./index.css";
-import Title from "./Title";
-// const container = document.getElementById("container");
-// console.log(container);
-render(<Title />, document.getElementById("container"));
+// import Promise from "bluebird";
+
+var Promise = require("bluebird");
+const a = new Promise((resolved, rejected) => {
+    if (true) {
+        resolved();
+    } else {
+        rejected();
+    }
+});
+// console.log(a);
